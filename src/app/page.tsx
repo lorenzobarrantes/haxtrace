@@ -15,10 +15,19 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             By{" "}
+            
             <Image
               src="/Qblanco.png"
               alt="Quadrant"
-              className=""
+              className="hidden dark:flex"
+              width={150}
+              height={524}
+              priority
+            />
+                        <Image
+              src="/quadrantLogo.png"
+              alt="Quadrant"
+              className="dark:hidden flex"
               width={150}
               height={524}
               priority
